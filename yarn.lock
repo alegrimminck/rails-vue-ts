@@ -68,6 +68,28 @@
   resolved "https://registry.npmjs.org/@rollup/rollup-darwin-arm64/-/rollup-darwin-arm64-4.56.0.tgz"
   integrity sha512-EgxD1ocWfhoD6xSOeEEwyE7tDvwTgZc8Bss7wCWe+uc7wO8G34HHCUH+Q6cHqJubxIAnQzAsyUsClt0yFLu06w==
 
+"@tanstack/match-sorter-utils@^8.19.4":
+  version "8.19.4"
+  resolved "https://registry.npmjs.org/@tanstack/match-sorter-utils/-/match-sorter-utils-8.19.4.tgz"
+  integrity sha512-Wo1iKt2b9OT7d+YGhvEPD3DXvPv2etTusIMhMUoG7fbhmxcXCtIjJDEygy91Y2JFlwGyjqiBPRozme7UD8hoqg==
+  dependencies:
+    remove-accents "0.5.0"
+
+"@tanstack/query-core@5.90.20":
+  version "5.90.20"
+  resolved "https://registry.npmjs.org/@tanstack/query-core/-/query-core-5.90.20.tgz"
+  integrity sha512-OMD2HLpNouXEfZJWcKeVKUgQ5n+n3A2JFmBaScpNDUqSrQSjiveC7dKMe53uJUg1nDG16ttFPz2xfilz6i2uVg==
+
+"@tanstack/vue-query@^5.92.9":
+  version "5.92.9"
+  resolved "https://registry.npmjs.org/@tanstack/vue-query/-/vue-query-5.92.9.tgz"
+  integrity sha512-jjAZcqKveyX0C4w/6zUqbnqk/XzuxNWaFsWjGTJWULVFizUNeLGME2gf9vVSDclIyiBhR13oZJPPs6fJgfpIJQ==
+  dependencies:
+    "@tanstack/match-sorter-utils" "^8.19.4"
+    "@tanstack/query-core" "5.90.20"
+    "@vue/devtools-api" "^6.6.3"
+    vue-demi "^0.14.10"
+
 "@types/estree@1.0.8":
   version "1.0.8"
   resolved "https://registry.npmjs.org/@types/estree/-/estree-1.0.8.tgz"
@@ -142,6 +164,11 @@
   dependencies:
     "@vue/compiler-dom" "3.5.27"
     "@vue/shared" "3.5.27"
+
+"@vue/devtools-api@^6.6.3":
+  version "6.6.4"
+  resolved "https://registry.npmjs.org/@vue/devtools-api/-/devtools-api-6.6.4.tgz"
+  integrity sha512-sGhTPMuXqZ1rVOk32RylztWkfXTRhuS7vgAKv0zjqk8gbsHkJ7xfFf+jbySxt7tWObEJwyKaHMikV/WGDiQm8g==
 
 "@vue/language-core@3.2.4":
   version "3.2.4"
@@ -380,6 +407,11 @@ queue-microtask@^1.2.2:
   resolved "https://registry.npmjs.org/queue-microtask/-/queue-microtask-1.2.3.tgz"
   integrity sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==
 
+remove-accents@0.5.0:
+  version "0.5.0"
+  resolved "https://registry.npmjs.org/remove-accents/-/remove-accents-0.5.0.tgz"
+  integrity sha512-8g3/Otx1eJaVD12e31UbJj1YzdtVvzH85HV7t+9MJYk/u3XmkOUJ5Ys9wQrf9PCPK8+xn4ymzqYCiZl6QWKn+A==
+
 reusify@^1.0.4:
   version "1.1.0"
   resolved "https://registry.npmjs.org/reusify/-/reusify-1.1.0.tgz"
@@ -467,6 +499,11 @@ vscode-uri@^3.0.8:
   resolved "https://registry.npmjs.org/vscode-uri/-/vscode-uri-3.1.0.tgz"
   integrity sha512-/BpdSx+yCQGnCvecbyXdxHDkuk55/G3xwnC0GqY4gmQ3j+A+g8kzzgB4Nk/SINjqn6+waqw3EgbVF2QKExkRxQ==
 
+vue-demi@^0.14.10:
+  version "0.14.10"
+  resolved "https://registry.npmjs.org/vue-demi/-/vue-demi-0.14.10.tgz"
+  integrity sha512-nMZBOwuzabUO0nLgIcc6rycZEebF6eeUfaiQx9+WSk8e29IbLvPU9feI6tqW4kTo3hvoYAJkMh8n8D0fuISphg==
+
 vue-tsc@^3.2.4:
   version "3.2.4"
   resolved "https://registry.npmjs.org/vue-tsc/-/vue-tsc-3.2.4.tgz"
@@ -475,7 +512,7 @@ vue-tsc@^3.2.4:
     "@volar/typescript" "2.4.27"
     "@vue/language-core" "3.2.4"
 
-vue@^3.2.25, vue@3, vue@3.5.27:
+"vue@^2.6.0 || ^3.3.0", "vue@^3.0.0-0 || ^2.6.0", vue@^3.2.25, vue@3, vue@3.5.27:
   version "3.5.27"
   resolved "https://registry.npmjs.org/vue/-/vue-3.5.27.tgz"
   integrity sha512-aJ/UtoEyFySPBGarREmN4z6qNKpbEguYHMmXSiOGk69czc+zhs0NF6tEFrY8TZKAl8N/LYAkd4JHVd5E/AsSmw==

@@ -9,6 +9,7 @@
     "vue-tsc": "^3.2.4"
   },
   "dependencies": {
+    "@tanstack/vue-query": "^5.92.9",
     "vue": "3"
   }
 }
